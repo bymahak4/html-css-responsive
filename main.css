@@ -253,12 +253,7 @@ footer .container{
 
     #caracteristicas{
         background-image: url("media/img/background-2.jpeg");
-        background-repeat: no-repeat;
-        background-size: 500px 400px;
-        background-position: calc(110vw - 500px) 90px;
-    }
-    #caracteristicas .container{
-        text-align: initial;
+        background-size: cover;
     }
     #caracteristicas ul{
         margin-left: 100px;
@@ -275,8 +270,18 @@ footer .container{
         justify-content: flex-end;
     }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 840px){
+    #caracteristicas{
+        background-image: url("media/img/background-2.jpeg");
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(110vw - 500px) 90px;
+    }
+    #caracteristicas .container{
+        text-align: initial;
+    }
+}
+@media (min-width: 1200px){
     #caracteristicas{
         background-position-x: calc(100vw - 800px);
     }
